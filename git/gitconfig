@@ -127,3 +127,6 @@
   path = .gitconfig.user
 [gc]
 	auto = 0
+[user]
+	name = Muhammad Hazeem
+	email = hazeem.1925@gmail.com
