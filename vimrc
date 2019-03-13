@@ -117,3 +117,6 @@ set smartcase       " ...unless we type a capital
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
 so ~/dotfiles/vim/settings.vim
+
+set clipboard=unnamed
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
