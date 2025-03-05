@@ -1,5 +1,2 @@
 ruby 3.4.1
-nodejs 22.3.0
-python 3.12.4 2.7.18
-lua 5.1
-neovim stable
+nodejs 23.6.0
