@@ -48,3 +48,4 @@ unset HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+bindkey '^F' autosuggest-accept  # Ctrl+f

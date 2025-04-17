@@ -55,8 +55,15 @@ source ~/.asdf/asdf.fish
 
 set OP_PLUGINS "$HOME/.config/op"
 
+# bind \cF accept-autosuggestion
+bind \cA accept-autosuggestion  # Alt+a
 if test -d "$OP_PLUGINS"
     source ~/.config/op/plugins.sh
 else
     echo "Directory does not exist: $OP_PLUGINS. Please reference https://developer.1password.com/docs/cli for installation instructions."
 end
+
+# bind \cF forward-word
+# function fish_user_key_bindings
+#     bind --preset \cf forward-char
+# end
