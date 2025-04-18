@@ -193,6 +193,7 @@ abbr -a -g ns 'npm serve'
 abbr -a -g nst 'npm start'
 abbr -a -g nt 'npm test'
 abbr -a -g nv 'npm --version'
+abbr -a -g npmsd 'npm run start:dev'
 
 # Yarn
 abbr -a -g y yarn

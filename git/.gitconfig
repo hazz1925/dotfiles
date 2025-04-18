@@ -15,7 +15,7 @@
   df = diff
   dc = diff --cached
   f = fetch
-  l = log --date=format:'%b %d, %Y' --pretty=format:'%C(yellow bold)%h%Creset%C(white)%d%Creset %s%n%C(blue)%aN <%ae> | %cd%n'
+  l = log --oneline --graph
   lg = log --graph --stat --date=format:'%b %d, %Y' --pretty=format:'%C(yellow bold)%h%Creset%C(white)%d%Creset %s%n%C(blue)%aN <%ae> | %cd%n'
   pl = pull
   ps = push
@@ -90,6 +90,7 @@
 
 [gpg]
   program = /opt/homebrew/bin/gpg
+  format  = ssh
 
 [include]
   path = ~/.gitconfig.local
@@ -120,9 +121,10 @@
 
 [tag]
   gpgSign = true
+[user]
+	name = Hazeem Salim
+	email = hazeem@setel.com
+	signingkey = /Users/hazeem/.ssh/id_ed25519.pub
 
-[url "https://github.com/"]
-  insteadOf = git@github.com:
-
-[url "https://"]
-  insteadOf = git://
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset

@@ -68,4 +68,5 @@ if command -v gh >/dev/null && gh extension list | grep -q 'copilot'; then
   eval "$(gh copilot alias -- zsh)"
 fi
 
+export ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY=latest_available
 . "$HOME/.config/zsh/profiler.stop"
