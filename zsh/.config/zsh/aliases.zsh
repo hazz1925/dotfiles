@@ -113,3 +113,4 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Custom
 alias e=lvim
+alias npmsd='npm run start:dev'
