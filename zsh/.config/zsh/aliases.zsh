@@ -1,6 +1,5 @@
 # General
 alias cat='bat --paging=never'
-alias cp='gcp -iv'
 
 # ls > eza
 # Other aliases handled by exa plugin

@@ -29,7 +29,7 @@ export DOTFILES="$HOME/dotfiles"
 export ABBR_USER_ABBREVIATIONS_FILE="$XDG_CONFIG_HOME/zsh-abbr/abbreviations.zsh"
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
-export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
+export PKG_CONFIG_PATH="$HOME/.homebrew/opt/libpq/lib/pkgconfig"
 export GPG_TTY=$(tty)
 
 . "$XDG_CONFIG_HOME/zsh/plugins.zsh" # Includes Zap - https://www.zapzsh.com
@@ -68,5 +68,9 @@ if command -v gh >/dev/null && gh extension list | grep -q 'copilot'; then
   eval "$(gh copilot alias -- zsh)"
 fi
 
+export PATH="$HOME/.cargo/bin:$PATH"
 export ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY=latest_available
 . "$HOME/.config/zsh/profiler.stop"
+
+
+export DOCKER_HOST=unix:///Users/hazeem/.orbstack/run/docker.sock

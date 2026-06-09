@@ -1,3 +1,5 @@
 ruby 3.4.1
-nodejs 23.6.0
+nodejs 22.21.1
 neovim 0.10.0
+golang 1.25.2
+rust 1.90.0

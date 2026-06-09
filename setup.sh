@@ -77,8 +77,8 @@ dotfiles_echo "Checking your system architecture..."
 arch="$(uname -m)"
 
 if [ "$arch" == "arm64" ]; then
-  dotfiles_echo "You're on Apple Silicon! Setting HOMEBREW_PREFIX to /opt/homebrew..."
-  HOMEBREW_PREFIX="/opt/homebrew"
+  dotfiles_echo "You're on Apple Silicon! Setting HOMEBREW_PREFIX to ~/.homebrew..."
+  HOMEBREW_PREFIX="~/.homebrew"
 else
   dotfiles_echo "You're on an Intel Mac! Setting HOMEBREW_PREFIX to /usr/local..."
   HOMEBREW_PREFIX="/usr/local"
