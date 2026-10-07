@@ -74,3 +74,4 @@ export ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY=latest_available
 
 
 export DOCKER_HOST=unix:///Users/hazeem/.orbstack/run/docker.sock
+source /Users/hazeem/.safe-chain/scripts/init-posix.sh # Safe-chain Zsh initialization script

@@ -76,3 +76,4 @@ eval "$(starship init bash)"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # vim: set filetype=bash:
+source /Users/hazeem/.safe-chain/scripts/init-posix.sh # Safe-chain bash initialization script
