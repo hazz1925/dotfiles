@@ -70,3 +70,6 @@ fi
 
 export ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY=latest_available
 . "$HOME/.config/zsh/profiler.stop"
+
+# Added by Antigravity
+export PATH="/Users/hazeem/.antigravity/antigravity/bin:$PATH"

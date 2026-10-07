@@ -1,6 +1,5 @@
 # General
 alias cat='bat --paging=never'
-alias cp='gcp -iv'
 
 # ls > eza
 # Other aliases handled by exa plugin
@@ -112,5 +111,6 @@ alias gbb='git bisect bad'
 alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Custom
-alias e=lvim
+alias e=$EDITOR
 alias npmsd='npm run start:dev'
+alias python='python3'

@@ -3806,6 +3806,8 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>EE851342-80B0-4CB6-814F-794E01D07BB6</string>
+	<key>Default Browser Profile Guid</key>
+	<string>3661A9C3-7178-4469-96A4-2EB949F79DF3</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>

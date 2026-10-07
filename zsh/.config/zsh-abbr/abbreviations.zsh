@@ -277,3 +277,8 @@ abbr "dpsa"="docker ps -a"
 abbr "dsp"="docker system prune --all"
 
 # vim: set filetype=zsh:
+
+
+abbr "kc"="kubectl"
+abbr "kcpf"="kubectl port-forward"
+abbr "kcgp"="kubectl get pods"
